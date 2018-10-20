@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+html{
+	background-image: url("mario.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-attachment: fixed;
+}
+body {
+	margin-top: 100px;
+	background-color: white;
+	opacity: 0.9;
+	padding : 20px 0 20px 0;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2 {
+    text-align: center;
+}
+a {
+    color: black;   
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 5px;
+    margin-left: 130px;
+    border : 2px groove black;
+    text-decoration: none;
+    background-color: cyan;
+}
+input {
+	width:60%;
+	height: 40px;
+	margin : 3px;
+	display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#button {
+	width:60%;
+	height: 40px;
+	margin : 3px;
+	display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#font1 {
+	font-size: 30px;
+	color: #455540;
+	text-shadow: 1px 1px red;
+}
